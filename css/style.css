@@ -9,11 +9,12 @@ html,body{
 .header-container {
     display: flex;
     width: 90%;
-    background: darkblue;
+    justify-content: space-between;
+    align-items: center;
 }
-.logo-link{
-    width: 40px;
-    height: 40px;
+.img-container{
+    width: 73px;
+    height: 73px;
 }
 .logo-img{
     width: 100%;
@@ -22,4 +23,70 @@ html,body{
 .header{
     display: flex;
     justify-content: center;
+}
+.social__item{
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.social__item--vk{
+    background-image: url(../img/vk.svg);
+}
+.social__item--whatsapp{
+    background-image: url(../img/whatsapp.svg);
+    
+}
+.social__item--instagram {
+    background-image: url(../img/instagram.svg);
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.navbar__item {
+    text-decoration: none;
+    color: #000;
+    text-transform: lowercase;
+    margin:0 10px 0 0;
+}
+.navbar__item:last-child{
+    margin: 0;
+}
+.navbar__item:hover{
+    color: red;
+    text-decoration: underline;
+}
+.title-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-title {
+    width: 90%;
+    text-align: center;
+    border-bottom: 1px solid red;
+    padding-bottom: 40px;
+}
+.phone{
+    text-decoration: none;
+    color: #000;
+}
+.mobile-phone{
+ margin-bottom: 10px;
+}
+.information-container {
+    display: flex;
+    justify-content: center; 
+}
+.information__item {
+    width: 36%;
+    padding: 1%; 
+}
+.information__item-img{
+    height: 656px;
+}
+.information-img{
+    width: 100%;
+    height: auto;
 }
